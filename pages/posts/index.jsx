@@ -7,7 +7,7 @@ const Posts = ( {posts} ) => {
         {posts.map((post) => (
         <div className="py-5 ">
             <h1>{post.title}</h1>
-            <h3>{post.author} - <small>{post.publishedDate}</small> {" "}</h3>
+            <h3>{post.author} - <small >{post.published_date}</small> {" "}</h3>
             <p>{post.content}</p>
         </div>
             ))}
